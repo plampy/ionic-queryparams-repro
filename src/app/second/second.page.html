@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>second</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<a routerLink="/home" [queryParams]="{ foo: 'bar' }">Link home with foo query param</a>
+	<br>
+	<a routerLink="/home" [queryParams]="{ baz: 'qux' }">Link home with baz query param</a>
+</ion-content>
